@@ -1,2 +1,1 @@
-# public-documentation
-Public documentation
+# Public documentation
