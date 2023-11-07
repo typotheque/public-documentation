@@ -1,4 +1,4 @@
-# Vertical extremes on common texts
+# Vertical extremes in common texts
 
 - देवनागरी Devanagari: कँकॅंर्किं ड्डू
 - ગુજરાતી Gujarati: કૅંર્કિં ડ્ડૂ
