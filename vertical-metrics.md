@@ -5,20 +5,20 @@ Affected fields in font files:
 - [`hhea` table](https://learn.microsoft.com/en-us/typography/opentype/spec/hhea)
   - `ascender`
   - `descender`
-  - `lineGap`: always set to 0
+  - `lineGap`: always 0
 - `OS/2` table
   - [`usWinAscent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswinascent)
   - [`usWinDescent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswindescent)
-  - [`fsSelection`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fsselection) bit 7 (`USE_TYPO_METRICS`): always set (switched on)
-  - [`sTypoAscender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypoascender): always sync to `hhea.ascender`
-  - [`sTypoDescender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypodescender): always sync to `hhea.descender`
-  - [`sTypoLineGap`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypolinegap): always sync to `hhea.lineGap`
+  - [`fsSelection`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fsselection) bit 7 (`USE_TYPO_METRICS`): always set
+  - [`sTypoAscender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypoascender): synced to `hhea.ascender`
+  - [`sTypoDescender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypodescender): synced to `hhea.descender`
+  - [`sTypoLineGap`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypolinegap): synced to `hhea.lineGap` thus always 0
 
 Note some fields have either fixed or synced values, therefore only four values need to be decided.
 
 ## Default line height and vertical alignment
 
-> Affected fields: `hhea.ascender`, `hhea.descender` (and the synced `OS/2.sTypoAscender` and `OS/2.sTypoDescender`).
+> Affected fields: `hhea.ascender`, `hhea.descender` (as well as the synced `OS/2.sTypoAscender` and `OS/2.sTypoDescender`).
 
 First decide the following parameters:
 
@@ -30,7 +30,7 @@ First decide the following parameters:
   - It’s a good practice to use 50% of the cap height for Latin designs.
   - Non-Latin designs don’t necessary need a different reference point, because the vertical alignment of Latin glyphs may still be a major concern.
 
-Then we can calculate `hhea.ascender` and `hhea.descender` (and the synced `OS/2.sTypoAscender` and `OS/2.sTypoDescender`):
+Then we can calculate `hhea.ascender` and `hhea.descender`:
 
 - Half line height (in font units) = \<units per em> x \<default line height ratio> / 2
 - `hhea.ascender` = \<vertical center> + \<half line height>
@@ -46,7 +46,7 @@ For example:
 
 > Affected fields: `hhea.ascender` (and the synced `OS/2.sTypoAscender`).
 
-In case the calculated `hhea.ascender` is smaller than the heights of some significant structures (eg, “Ằ” for a project targeting Vietnamese):
+Positioning of the first baseline in a multiline layout is often based on `hhea.ascender`. In case the calculated `hhea.ascender` is smaller than the heights of some significant structures (eg, “Ằ” for a project targeting Vietnamese) and causes clipping:
 
 - Increase the “default line height ratio” then recalculate `hhea.ascender` and `hhea.descender`.
 - Alternatively, choose a different “vertical center”.
@@ -57,5 +57,5 @@ In case the calculated `hhea.ascender` is smaller than the heights of some signi
 
 To control the clipping area in environments like Office Word:
 
-- Set `OS/2.usWinAscent` and `OS/2.usWinDescent` large enough to enclose all the known usage of glyphs.
-- Make sure to take GPOS mark attachment (anchoring) into consideration.
+- Set `OS/2.usWinAscent` and `OS/2.usWinDescent` large enough to enclose all the intended usage of glyphs.
+- Besides the bounding box of all glyphs, make sure to also take GPOS mark attachment (anchoring) into consideration.
