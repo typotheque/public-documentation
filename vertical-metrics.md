@@ -1,20 +1,23 @@
 # Vertical metrics
 
-Affected fields in font files:
+Affected fields in font files are listed below. These fields are typically set to be the same across a font family. Note some fields have either fixed or synced values, therefore only four values need to be decided.
 
-- [`hhea` table](https://learn.microsoft.com/en-us/typography/opentype/spec/hhea)
-  - `ascender`
-  - `descender`
-  - `lineGap`: always 0
-- `OS/2` table
-  - [`usWinAscent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswinascent)
-  - [`usWinDescent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswindescent)
-  - [`fsSelection`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fsselection) bit 7 (`USE_TYPO_METRICS`): always set
-  - [`sTypoAscender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypoascender): synced to `hhea.ascender`
-  - [`sTypoDescender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypodescender): synced to `hhea.descender`
-  - [`sTypoLineGap`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypolinegap): synced to `hhea.lineGap` thus always 0
+[`hhea` table](https://learn.microsoft.com/en-us/typography/opentype/spec/hhea):
 
-Note some fields have either fixed or synced values, therefore only four values need to be decided.
+- `ascender`
+- `descender`
+- `lineGap`: always 0
+
+`OS/2` table:
+
+- [`usWinAscent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswinascent)
+- [`usWinDescent`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswindescent)
+- [`fsSelection`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fsselection) bit 7 (`USE_TYPO_METRICS`): always set
+- [`sTypoAscender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypoascender): synced to `hhea.ascender`
+- [`sTypoDescender`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypodescender): synced to `hhea.descender`
+- [`sTypoLineGap`](https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypolinegap): synced to `hhea.lineGap` thus always 0
+
+> In Glyphs, `OS/2.fsSelection` bit 7 is set with font-level custom parameter “Use Typo Metrics”, while other fields are set with master-level custom parameters: hheaAscender, hheaDescender, hheaLineGap, typoAscender, typoDescender, typoLineGap, winAscent, winDescent.
 
 ## Default line height and vertical alignment
 
@@ -59,3 +62,5 @@ To control the clipping area in environments like Office Word:
 
 - Set `OS/2.usWinAscent` and `OS/2.usWinDescent` large enough to enclose all the intended usage of glyphs.
 - Besides the bounding box of all glyphs, make sure to also take GPOS mark attachment (anchoring) into consideration.
+
+> Note `OS/2.usWinDescent` takes a positive value, in the sense of a distance from the baseline.
