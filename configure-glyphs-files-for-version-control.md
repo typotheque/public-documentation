@@ -1,20 +1,19 @@
 # Configure Glyphs files for version control
 
-The “last change” timestamps of glyphs pollute git history. To disable them:
+> These instructions are specific to Glyphs 3.
 
-- Glyphs 2: add font-level custom parameter `Disable Last Change` and _check_ it.
-- Glyphs 3: add font-level custom parameter `Write lastChange` and _uncheck_ it.
+1. Use the version 3 format:
 
-## Glyphs 3 only
+    - In the “Other” tab of the “Font Info” window, make sure “Version 3” is chosen for “File Saving”.
 
-Use the version 3 format, as long as all collaborators on the source file already use Glyphs 3:
+2. Use the “.glyphspackage” format for UFO-like, per-glyph version control:
 
-- In the “Other” tab of the “Font Info” window, choose “Version 3” for “File Saving”.
+    - Save as a new file with the file format “Glyphs File Package”.
 
-The test texts inside edit tabs are saved to the file by default. Unless you really need other people to see your last used test texts, disable this behavior to avoid unnecessary changes in git history:
+3. The “last change” timestamps pollute Git commits. To disable them:
 
-- Add font-level custom parameter `Write DisplayStrings` and uncheck it.
+    - Add font-level custom parameter “Write lastChange” and _uncheck_ it.
 
-If a UFO-like experience of per-glyph version control is desired (eg, changing a glyph name doesn’t shift hundreds of lines of the whole .glyphs file), use the `.glyphspackage` format:
+4. The test texts inside edit tabs are saved to the file by default. Unless you really need other people to see your last used test texts, disable this behavior to avoid unnecessary changes in Git commits:
 
-- Save as a new file, with the file format “Glyphs File Package”.
+    - Add font-level custom parameter “Write DisplayStrings” and _uncheck_ it.
