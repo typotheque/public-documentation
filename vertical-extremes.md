@@ -5,27 +5,27 @@ Notes:
 - For each script or orthography, two lines are given: The upper has extreme descenders, and the lower has extreme ascenders.
 - The two lines may then collide because the line height is not enough. That’s exactly the point of this doc.
 - Within each line, cases are roughly ordered from frequent to less frequent (but more extreme).
-- Letter _ka_ is used as the placeholder base by default. If it has an unusual structure in a script, a letter later in the alphabet is used instead.
+- For dependent signs, the letter _pa_ is typically used as the placeholder base.
 
 ## Scripts and orthographies
 
 ### Devanagari देवनागरी
 
-> कू डू ड्रू ड्डू <br>
-> कँ कॅं र्क
+> पू डू ड्रू ड्डू <br>
+> पँ पॅं र्पैं र्पिं
 
 Notes:
 
-- कँ (with _candrabindu_) is used in standard Hindi, while कॅं (with _candra e_ and _anusvara_) is used in Marathi for loan words (eg, बॅंक “bank”). The latter is typically shaped to be confusable with the former and thus has a similar ascender size.
+- पँ (with _candrabindu_) is used in standard Hindi, while पॅं (with _candra e_ and _anusvara_) is used in Marathi for loan words (eg, बॅंक “bank”). The latter is typically shaped to be confusable with the former and thus has a similar ascender size.
 
 ### Gujarati ગુજરાતી
 
-> ખૂ ડૂ ડ્રૂ ડ્ડૂ <br>
-> ખૅં ર્ખિં
+> પૂ ડૂ ડ્રૂ ડ્ડૂ <br>
+> પૅં ર્પૈં ર્પિં
 
 Notes:
 
-- ખૅં (with _candra e_ and _anusvara_) is supposed to be used in the Devanagari–Marathi way, but in reality Gujarati usually spells words like “bank” as બેંક (with _e_ and _anusvara_). Gujarati doesn’t use _candrabindu_.
+- પૅં (with _candra e_ and _anusvara_) is supposed to be used in the Devanagari–Marathi way, but in reality, those loanwords are usually spelt with _e_ and _anusvara_ (eg, બેંક “bank”). Gujarati doesn’t use _candrabindu_.
 
 ### Gurmukhi ਗੁਰਮੁਖੀ
 
