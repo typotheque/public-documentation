@@ -17,15 +17,17 @@ Notes:
 Notes:
 
 - पँ (with _candrabindu_) is used in standard Hindi, while पॅं (with _candra e_ and _anusvara_) is used in Marathi for loan words (eg, बॅंक “bank”). The latter is typically shaped to be confusable with the former and thus has a similar ascender size.
+- ड्डू is used in लड्डू “laddu”, a common sweet.
 
 ### Gujarati ગુજરાતી
 
-> પૂ ડૂ ડ્રૂ ડ્ડૂ <br>
+> પૂ ડૂ ડ્રૂ ટ્ટ ડ્ડ <br>
 > પૅં ર્પૈં ર્પિં
 
 Notes:
 
 - પૅં (with _candra e_ and _anusvara_) is supposed to be used in the Devanagari–Marathi way, but in reality, those loanwords are usually spelt with _e_ and _anusvara_ (eg, બેંક “bank”). Gujarati doesn’t use _candrabindu_.
+- Laddu in Gujarati is called લાડુ, without a ડ્ડૂ syllable.
 
 ### Gurmukhi ਗੁਰਮੁਖੀ
 
