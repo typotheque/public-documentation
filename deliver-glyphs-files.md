@@ -19,10 +19,11 @@
 3. Remove unnecessary glyphs and kerning:
 
     - In principle, only keep your own glyphs.
-    - Latin or common-script glyphs (“external glyphs”, as they are copied from the Latin source file) that interact with your glyphs (eg, due to composition, anchoring, or kerning) need to be kept as well. Mark such external glyphs in brown.
-    - If you need some other external glyphs for design reference or testing, mark them in dark gray. We assume such glyphs can be safely ignored in production.
+        - Any glyphs that are maintained in a separate, canonical file are considered “external glyphs”. For example, Latin and common punctuation mark glyphs copied from the canonical Latin file to a Devanagari file are external glyphs in the Devanagari file.
+        - External glyphs that interact with your glyphs (eg, due to composition, anchoring, or kerning) need to be kept as well. Mark such external glyphs in brown.
+        - If you need some other external glyphs for design reference or testing, mark them in dark gray. We assume such glyphs can be safely ignored in production.
     - After removing unnecessary glyphs, go to the “Kerning” window > “…” menu > click “Clean up”. This should get rid of all the unused kerning pairs from all masters.
-    - Quickly review the remaining kerning pairs and remove the ones that don’t involve your own glyphs (eg, a Latin pair “VA”).
+    - Quickly review the remaining kerning pairs and remove the ones that don’t involve your own glyphs (eg, a Latin pair “VA” in a Devanagari file).
 
 4. Clean up and verify other font info:
 
