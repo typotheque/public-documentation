@@ -2,23 +2,31 @@
 
 > These instructions are specific to Glyphs 3.2.
 
-## 1. Remove unnecessary metadata
+## 1. File format and interpolation model
 
-Add font-level custom parameter “Write lastChange” and _uncheck_ it.
+“Font Info” window → “Other” tab:
 
-Add font-level custom parameter “Write DisplayStrings” and _uncheck_ it.
+- “File format version”: select “Version 3”.
+- “Font type”: select “Variable”.
 
-> The “last change” timestamps pollute Git commits. The test texts inside edit tabs (“display strings”) are saved to the file by default. Unless you really need other people to see your last used test texts, disable that behavior to avoid unnecessary changes in Git commits.
+Save as a new file with the file format “Glyphs File Package”.
 
-## 2. Use the version 3, .glyphspackage format
+> The “variable” font type makes Glyphs interpolate masters using the variable font model [instead of the Adobe multiple master model](https://handbook.glyphsapp.com/other-settings/#font-type). The .glyphspackage format allows UFO-like, per-glyph version control.
 
-“Font Info” window > “Other” tab > “File format version”: select “Version 3”.
+## 2. Metadata
 
-Save as a new file with “File Format”: “Glyphs File Package”.
+- Add font-level custom parameter “[Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange)” and _uncheck_ it.
+- Add font-level custom parameter “[Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings)” and _uncheck_ it.
 
-> The .glyphspackage format allows UFO-like, per-glyph version control.
+## 3. Other font info
 
-## 3. Remove unnecessary glyphs and kerning
+Go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
+
+In particular, for masters, only keep the stem widths of your glyphs. Typically for each master we only need one value for vertical stems and one value for horizontal stems.
+
+Also, remove non-relevant alignment zones (inherited from Latin), and keep only the alignment zones specific to the given scripts. Make sure it is correctly labeled, e.g. `Body Height`, `Thai`.
+
+## 4. Glyphs and kerning
 
 In principle, only keep your own glyphs and remove any external glyphs:
 
@@ -29,20 +37,12 @@ In principle, only keep your own glyphs and remove any external glyphs:
 - **Overrides of external glyphs** due to an optimized design or anchoring aren’t external glyphs anymore. Because they are typographical variants of the external glyphs for your script, append your script’s hyphen suffix to their names as a dot suffix.
     - For example, in a Devanagari file, it’s common to have a “space” glyph optimized for Devanagari and a “dottedcirle” glyph that holds the base anchors for Devanagari combining marks. Because Devanagari glyphs have a “-deva” suffix, these overrides of external glyphs should be named “space.deva” and “dottedcirle.deva”. While for Arabic, because the hyphen suffix is “-ar”, the overrides should be named with a “.ar” suffix.
 
-After removing unnecessary glyphs, go to the “Kerning” window > “…” menu > click “Clean up”. This should get rid of all the unused kerning pairs from all masters.
+After removing unnecessary glyphs, go to the “Kerning” window → “…” menu → click “Clean up”. This should get rid of all the unused kerning pairs from all masters.
 
 Quickly review the remaining kerning pairs and remove the ones that don’t involve your own glyphs (eg, a Latin pair “VA” in a Devanagari file).
 
-## 4. Clean up and verify other font info
+## 5. README.md
 
-Go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
+Create a README.md file in your script directory. This file is valuable for documenting any detail that’s not self-explenatory in the source files.
 
-In particular, for masters, only keep the stem widths of your glyphs. Typically for each master we only need one value for vertical stems and one value for horizontal stems.
-
-Also, remove non-relevant alignment zones (inherited from Latin), and keep only the alignment zones specific to the given scripts. Make sure it is correctly labeled, e.g. `Body Height`, `Thai`.
-
-## 5. Create a README.md file in your script directory
-
-This file is valuable for documenting any detail that’s not self-explenatory in the source files.
-
-Document the meaning of any persisting glyph color marks.
+In particular, document the meaning of any persisting glyph color marks.
