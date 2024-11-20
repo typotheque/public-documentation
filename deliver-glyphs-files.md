@@ -2,7 +2,11 @@
 
 > These instructions are specific to Glyphs 3.2.
 
-## 1. File format and interpolation model
+## Glyphs version
+
+Use the latest stable version. Do not use a “cutting edge” version.
+
+## File format and interpolation model
 
 “Font Info” window → “Other” tab:
 
@@ -13,12 +17,12 @@ Save as a new file with the file format “Glyphs File Package”.
 
 > The “variable” font type makes Glyphs interpolate masters using the variable font model [instead of the Adobe multiple master model](https://handbook.glyphsapp.com/other-settings/#font-type). The .glyphspackage format allows UFO-like, per-glyph version control.
 
-## 2. Metadata
+## Metadata
 
 - Add font-level custom parameter “[Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange)” and _uncheck_ it.
 - Add font-level custom parameter “[Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings)” and _uncheck_ it.
 
-## 3. Other font info
+## Other font info
 
 Go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
 
@@ -26,7 +30,7 @@ In particular, for masters, only keep the stem widths of your glyphs. Typically 
 
 Also, remove non-relevant alignment zones (inherited from Latin), and keep only the alignment zones specific to the given scripts. Make sure it is correctly labeled, e.g. `Body Height`, `Thai`.
 
-## 4. Glyphs and kerning
+## Glyphs and kerning
 
 In principle, only keep your own glyphs and remove any external glyphs:
 
@@ -41,7 +45,7 @@ After removing unnecessary glyphs, go to the “Kerning” window → “…” 
 
 Quickly review the remaining kerning pairs and remove the ones that don’t involve your own glyphs (eg, a Latin pair “VA” in a Devanagari file).
 
-## 5. README.md
+## README.md
 
 Create a README.md file in your script directory. This file is valuable for documenting any detail that’s not self-explenatory in the source files.
 
