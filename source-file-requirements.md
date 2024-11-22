@@ -1,12 +1,34 @@
-# Deliver Glyphs files for version control and production
+# Source file requirements
 
-> These instructions are specific to Glyphs 3.2.
+> These instructions are specified with Glyphs 3 in mind. Adjust the instructions to match your reality if you use a different editor.
 
-## Glyphs version
+## Aspects that matter to production
 
-Use the latest stable version. Do not use a “cutting edge” version.
+In particular:
 
-## File format and interpolation model
+- Axes: name, tag, and the order of axes
+  - Follow the product register.
+- Masters: coordinates, vertical metrics and alignment zones, as well as stem widths
+  - Follow the product register.
+- Glyphs: name, export status, intermediate layer coordinates
+- Kerning
+
+Notable aspects that don’t matter:
+
+- Master names (but it’s a good practice to follow the product register)
+- Instances and variable font settings
+- OpenType Layout feature code
+- Glyph Unicode values
+
+## README.md
+
+Maintain a README.md file next to your source files. This file is valuable for documenting anything that’s not self-explenatory in the source files.
+
+In particular, document the meaning of any persisting glyph color marks.
+
+## App version and file format
+
+Use the latest stable version of Glyphs 3. Do not use a “cutting edge” version.
 
 “Font Info” window → “Other” tab:
 
@@ -17,14 +39,12 @@ Save as a new file with the file format “Glyphs File Package”.
 
 > The “variable” font type makes Glyphs interpolate masters using the variable font model [instead of the Adobe multiple master model](https://handbook.glyphsapp.com/other-settings/#font-type). The .glyphspackage format allows UFO-like, per-glyph version control.
 
-## Metadata
+## Font info
 
 - Add font-level custom parameter “[Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange)” and _uncheck_ it.
 - Add font-level custom parameter “[Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings)” and _uncheck_ it.
 
-## Other font info
-
-Go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
+Then go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
 
 In particular, for masters, only keep the stem widths of your glyphs. Typically for each master we only need one value for vertical stems and one value for horizontal stems.
 
@@ -44,9 +64,3 @@ In principle, only keep your own glyphs and remove any external glyphs:
 After removing unnecessary glyphs, go to the “Kerning” window → “…” menu → click “Clean up”. This should get rid of all the unused kerning pairs from all masters.
 
 Quickly review the remaining kerning pairs and remove the ones that don’t involve your own glyphs (eg, a Latin pair “VA” in a Devanagari file).
-
-## README.md
-
-Create a README.md file in your script directory. This file is valuable for documenting any detail that’s not self-explenatory in the source files.
-
-In particular, document the meaning of any persisting glyph color marks.
