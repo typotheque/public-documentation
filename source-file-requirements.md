@@ -8,9 +8,14 @@ In particular:
 
 - Axes: name, tag, and the order of axes
   - Follow the product register.
-- Masters: coordinates, vertical metrics and alignment zones, as well as stem widths
-  - Follow the product register.
-- Glyphs: name, export status, intermediate layer coordinates
+- Masters:
+  - Coordinates (follow the product register)
+  - vertical metrics and alignment zones
+  - stem widths
+- Glyphs:
+  - Name
+  - export status
+  - intermediate layer coordinates
 - Kerning
 
 Notable aspects that don’t matter:
