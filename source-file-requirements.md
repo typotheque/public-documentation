@@ -10,12 +10,12 @@ In particular:
   - Follow the product register.
 - Masters:
   - Coordinates (follow the product register)
-  - vertical metrics and alignment zones
-  - stem widths
+  - Vertical metrics and alignment zones
+  - Stem widths
 - Glyphs:
-  - Name
-  - export status
-  - intermediate layer coordinates
+  - Name (to be clarified how glyphs should named)
+  - Export status
+  - Intermediate layer coordinates
 - Kerning
 
 Notable aspects that don’t matter:
