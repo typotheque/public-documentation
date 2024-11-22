@@ -27,7 +27,7 @@ Notable aspects that don’t matter:
 
 ## README.md
 
-Maintain a README.md file next to your source files. This file is valuable for documenting anything that’s not self-explenatory in the source files.
+Maintain a README.md file next to your source files. This file is valuable for documenting anything that’s not self-explanatory in the source files.
 
 In particular, document the meaning of any persisting glyph color marks.
 
