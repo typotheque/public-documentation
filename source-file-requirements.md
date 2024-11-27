@@ -46,8 +46,11 @@ Save as a new file with the file format “Glyphs File Package”.
 
 ## Font info
 
-- Add font-level custom parameter “[Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange)” and _uncheck_ it.
-- Add font-level custom parameter “[Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings)” and _uncheck_ it.
+Add the following font-level custom paramters and (un)check them accordingly:
+
+- [Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange): uncheck
+- [Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings): uncheck
+- [Don't use Production Names](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Don't-use-Production-Names): check
 
 Then go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
 
