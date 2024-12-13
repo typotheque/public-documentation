@@ -26,7 +26,7 @@ Early in the design stage you can construct glyphs by overlapping contours. Howe
 
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/94acda5f-9ef4-4e25-9b7a-cb883cc0b930" />
 
-Overlaps not in the outer positions is acceptable. 
+Overlaps _not_ in the outer positions is acceptable. 
 
 <img width="586" alt="image" src="https://github.com/user-attachments/assets/4574d03f-447c-45f4-8636-8f6f8b4f9e3b" />
 
@@ -52,7 +52,7 @@ Test fonts always by exporting to various formats:
 Every of these exporting options may give different results, so it is important that you ensure that there are no exporting errors in your source file.
 
 ## Points in extremas
-In order to allow use hinting, points should be placed at the x and y extramas of your paths. This is important for upright fonts, and less important in italic and slanted fonts. Glyphs App allows to insert points at extrams using this function Paths > Add Extremes.
+In order to allow use hinting, points should be placed at the x and y extramas of your paths. This is important for upright fonts, and less important in italic and slanted fonts. Glyphs App allows to insert points at extrams using this function **Paths > Add Extremes**.
 
 Hints are either vertical or horizontal, so they can only get hooked on nodes at the extremum of one curve. Also, by having them you could control better the curves and probably reduce the need for extra nodes.
 
