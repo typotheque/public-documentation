@@ -15,7 +15,7 @@ Filled outlines must be drawn anti-clockwise. While both drawings will appear id
 Use this Typotheque internal script to identify contours which have wrong direction. Glyphs > Path > **Correct Path Direction** will fix it.
 
 ## Outline compatibility
-When drawing multiple masters, outlines need to be compatible for interpolation, including anchors. Make sure you check compatibility within Glyphs app, by settingup a custom parameter **Enforce Compatibility Check** Read more about [Glyphs Multiple Masters tutorial](https://glyphsapp.com/learn/multiple-masters-part-2-keeping-your-outlines-compatible) on how to keep your outlines compatible.
+When drawing multiple masters, outlines need to be compatible for interpolation, including anchors. Make sure you check compatibility within Glyphs app, by setting up a custom parameter **Enforce Compatibility Check**. Read more about [Glyphs Multiple Masters tutorial](https://glyphsapp.com/learn/multiple-masters-part-2-keeping-your-outlines-compatible) on how to keep your outlines compatible.
 
 <img width="658" alt="image" src="https://github.com/user-attachments/assets/f03dbbad-33d5-43ff-9c6e-171bd2a32ff6" />
 
