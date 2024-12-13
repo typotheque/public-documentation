@@ -27,6 +27,7 @@ Early in the design stage you can construct glyphs by overlapping contours. Howe
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/94acda5f-9ef4-4e25-9b7a-cb883cc0b930" />
 
 Overlaps not in the outer positions is acceptable. 
+
 <img width="586" alt="image" src="https://github.com/user-attachments/assets/4574d03f-447c-45f4-8636-8f6f8b4f9e3b" />
 
 ## Open corners
@@ -36,9 +37,11 @@ While Glyphs app allows creating inner and outer white corners, you should avoid
 
 ## Contour problems
 Overlapping BCPs will cause export error. Sometimes it is hard to detect such issue such as overlapping BCPs in streight segments.
+
 <img width="585" alt="image" src="https://github.com/user-attachments/assets/1595b87b-0df5-44b1-adcd-854755b4efaa" />
 
 Missing BCPs will give unpredictable results when converting outlines to quadratic curves (TrueType outlines). 
+
 <img width="564" alt="image" src="https://github.com/user-attachments/assets/6a02e1e9-0041-422f-a03e-611577a09351" />
 
 Test fonts always by exporting to various formats:
