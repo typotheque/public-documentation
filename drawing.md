@@ -9,6 +9,7 @@ Here are additional information about drawing outlines.
 
 ## Contour direction
 Filled outlines must be drawn anti-clockwise. While both drawings will appear identical in the font editors, text engines will render clockwise outlines lighter than anti-clockwise outlines. 
+
 <img width="616" alt="image" src="https://github.com/user-attachments/assets/360d07e0-8809-4b7b-8a25-dc70ab2c9043" />
 
 Use this Typotheque internal script to identify contours which have wrong direction. Glyphs > Path > **Correct Path Direction** will fix it.
