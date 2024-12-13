@@ -1,6 +1,6 @@
 # Outline Drawing
 
-The two main designer responsibility is to [name the glyphs](https://github.com/typotheque/public-documentation/blob/main/designer-orientation.md) correctly, and to draw the shapes correctly. GLyphs ass as a useful tutorial about [drawing outlines](https://glyphsapp.com/learn/drawing-good-paths) and we suggest that you read it. They also have recommendation about [naming glyphs](https://glyphsapp.com/learn/getting-your-glyph-names-right). FontLab also [published some drawing recommendation](https://help.fontlab.com/fontlab-vi/Contours/#terminology), and GoogleFonts maintains their [Outline Quality](https://googlefonts.github.io/gf-guide/outlines) requirements.   
+The two main designer responsibility is to [name the glyphs](https://github.com/typotheque/public-documentation/blob/main/designer-orientation.md) correctly, and to draw the shapes correctly. Glyphs app as a useful tutorial about [drawing outlines](https://glyphsapp.com/learn/drawing-good-paths) and we suggest that you read it. They also have recommendation about [naming glyphs](https://glyphsapp.com/learn/getting-your-glyph-names-right). FontLab also [published some drawing recommendation](https://help.fontlab.com/fontlab-vi/Contours/#terminology), and GoogleFonts maintains their [Outline Quality](https://googlefonts.github.io/gf-guide/outlines) requirements.   
 
 Here are additional information about drawing outlines.
 
