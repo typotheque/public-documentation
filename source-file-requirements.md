@@ -38,11 +38,10 @@ Use the latest stable version of Glyphs 3. Do not use a “cutting edge” versi
 “Font Info” window → “Other” tab:
 
 - “File format version”: select “Version 3”.
-- “Font type”: select “Variable”.
 
 Save as a new file with the file format “Glyphs File Package”.
 
-> The “variable” font type makes Glyphs interpolate masters using the variable font model [instead of the Adobe multiple master model](https://handbook.glyphsapp.com/other-settings/#font-type). The .glyphspackage format allows UFO-like, per-glyph version control.
+> The .glyphspackage format allows UFO-like, per-glyph version control.
 
 ## Font info
 
