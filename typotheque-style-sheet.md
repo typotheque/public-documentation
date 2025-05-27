@@ -1,8 +1,7 @@
 TYPOTHEQUE
 Style Sheet (following (mostly) Hart’s Rules (Oxford))
 
-
-May 2025
+Updated: 27 May 2025
 
 # Spelling and punctuation
 - UK spelling
@@ -10,12 +9,12 @@ May 2025
 - ise verb forms: recognise, realise
 - Compound adjectives containing an ‘-ly’ adverb do not need a hyphen: his highly polished black shoes, ethically sourced, globally famous
 - UK punctuation: commas and periods outside quotation marks: an end to the ‘world-wide carnage’,
-- ==Quotes==: single quotes throughout, but double inside single as needed. ‘a “pure” geometric reproduction, not a typographic one’ 
-- ==Dashes==: spaced em dashes for parenthetical dashes
-- ==Apostrophe==: Brooks’, Texas’, Miralles’, Barthes’
-- ==No apostrophe== around font names
-- ==No serial/Oxford== comma in lists
-- ==Ellipses==: to show omission in quoted text (square brackets […]) or pause in speaking… With the latter: no space before, space after (unless at end of sentence). 
+- **Quotes**: single quotes throughout, but double inside single as needed. ‘a “pure” geometric reproduction, not a typographic one’ 
+- **Dashes**: spaced em dashes for parenthetical dashes
+- **Apostrophe**: Brooks’, Texas’, Miralles’, Barthes’
+- **No apostrophe** around font names
+- **No serial/Oxford** comma in lists
+- **Ellipses**: to show omission in quoted text (square brackets […]) or pause in speaking… With the latter: no space before, space after (unless at end of sentence). 
 - Captions and footnotes: A full stop at the end
 - Footnote markers outside punctuation: e.g. the specific “there” of film watching.
 - See Word List for specific spellings
