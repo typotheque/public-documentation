@@ -101,106 +101,106 @@ N/A so far
 ## Word List
 
 # A
-Aboriginal
-acknowledements 
-advisor
-among (not amongst)
-art deco
-art nouveau
-AutoCad
+- Aboriginal
+- acknowledements 
+- advisor
+- among (not amongst)
+- art deco
+- art nouveau
+- AutoCad
 
 # B
-BCE (small caps) (not BC)
-benefited/benefiting
+- BCE (small caps) (not BC)
+- benefited/benefiting
 
 # C
-c. (circa)
-CE (small caps) (not AD)
-co-exist
-cooperative
-crowdfund
+- c. (circa)
+- CE (small caps) (not AD)
+- co-exist
+- cooperative
+- crowdfund
 
 # D
-De Stijl movement
+- De Stijl movement
 
 # E
-ExtraWide
+- ExtraWide
 
 # F
-Fontstand
+- Fontstand
 
 # G
-grotesk (l.c.) unless name of font 
+- grotesk (l.c.) unless name of font 
 
 # H
-halfway
+- halfway
 
 # I
-i.e., (with comma after)
-Indigenous 
-internet
+- i.e., (with comma after)
+- Indigenous 
+- internet
 
 # J
-judgement
+- judgement
 
 # L
-learned, not learnt. Also burned, smelled, leaped, leaned
-
-letterform
-letter shape 
-letterset
-license (but licensing)
-*lingua franca*
-Linotype
-loopless (unless name of a font, e.g. Loopless Zed)
-lowercase 
+- learned, not learnt. Also burned, smelled, leaped, leaned
+- letterform
+- letter shape 
+- letterset
+- license (but licensing)
+- *lingua franca*
+- Linotype
+- loopless (unless name of a font, e.g. Loopless Zed)
+- lowercase 
 
 # M
-mid-1990s 
-multimillion
-(no hyphen after ‘multi’ in other words)
-Modernist
-monolinear
-Monotype (uppercase)
-multiscript
+- mid-1990s 
+- multimillion
+- (no hyphen after ‘multi’ in other words)
+- Modernist
+- monolinear
+- Monotype (uppercase)
+- multiscript
 
 # N
-nameplate
-not-for-profit 
-North American
-northeast
+- nameplate
+- not-for-profit 
+- North American
+- northeast
 
 # O
-okay
-OpenType
-P
-%, not per cent
-point/12 pt 
+- okay
+- OpenType
+  
+# P
+- %, not per cent
+- point/12 pt 
 
 # Q
-Quran
+- Quran
 
 # R
 
 # S
-sans serif (no hyphen)
-slab serif (no hyphen)
-semi-serif Simplified Malayalam (not Reformed)
-Simplified Chinese
+- sans serif (no hyphen)
+- slab serif (no hyphen)
+- semi-serif Simplified Malayalam (not Reformed)
+- Simplified Chinese
 
 # T
-Traditional Malayalam, Traditional Chinese
-TrueType
+- Traditional Malayalam, Traditional Chinese
+- TrueType
 
 # U
-Unicode
-US (not USA)
+- Unicode
+- US (not USA)
 
 # W
-First/Second World War, the Vietnam War
-while (not whilst)
+- First/Second World War, the Vietnam War
+- while (not whilst)
 
 # X
-x-height
+- x-height
 
 
