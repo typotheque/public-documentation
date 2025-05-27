@@ -73,23 +73,22 @@ Works in foreign languages: ‘in his 1922 book Typografie als Kunst (Typography
 *The Bangkok Reporter*
 
 # Capitals
-Font names in upper case: Terrassa Display, Greta Narrow
-Small caps for abbreviations: US, TV, MUBI, DVD, Q&As, 3D, Pope Urban VIII, but only in main, justified (serif) text. Not in intros, captions (sans serif) text etc
-Prime Minister Field Marshal Plaek Phibunsongkhram but the prime minister, Field Marshal Plaek Phibunsongkhram
+- Font names in upper case: Terrassa Display, Greta Narrow
+- Small caps for abbreviations: US, TV, MUBI, DVD, Q&As, 3D, Pope Urban VIII, but only in main, justified (serif) text. Not in intros, captions (sans serif) text etc
+- Prime Minister Field Marshal Plaek Phibunsongkhram but the prime minister, Field Marshal Plaek Phibunsongkhram
 
 # Citations
 
 Journal:
-Swan, C., ‘Early Modern Geometries’, *Nuncius*, 35(2) (2020), 333. doi:10.1163/18253911-03502008.
-Novarese, A., ‘Eurostile, a Synthetic Expression of Our Times’, *Pagina*, 4 (1964), 62; 
+- Swan, C., ‘Early Modern Geometries’, *Nuncius*, 35(2) (2020), 333. doi:10.1163/18253911-03502008.
+- Novarese, A., ‘Eurostile, a Synthetic Expression of Our Times’, *Pagina*, 4 (1964), 62; 
 
 Chapters in books: 
-Miller, J.A. and Lupton, E., ‘A Natural History of Typography’, in M. Bierut (ed.), *Looking Closer: Critical Writings on Design* (New York: Allworth Press, 1994), 21.
+- Miller, J.A. and Lupton, E., ‘A Natural History of Typography’, in M. Bierut (ed.), *Looking Closer: Critical Writings on Design* (New York: Allworth Press, 1994), 21.
 
 Book: 
-Frutiger, A., *Signs and symbols: their design and meaning* (London: Studio Editions, 1989), 166–168.
-
-Citations can be shortened on subsequent use: Frutiger, A., *Signs and symbols*
+- Frutiger, A., *Signs and symbols: their design and meaning* (London: Studio Editions, 1989), 166–168.
+- Citations can be shortened on subsequent use: Frutiger, A., *Signs and symbols*
 
 # Words in foreign languages
 Can use italics on first use. If used several times, no need to italicise each time
