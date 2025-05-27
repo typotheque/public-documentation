@@ -99,8 +99,6 @@ N/A so far
 
 # TYPOTHEQUE
 ## Word List
-May 2025
-
 
 # A
 Aboriginal
@@ -110,31 +108,41 @@ among (not amongst)
 art deco
 art nouveau
 AutoCad
+
 # B
 BCE (small caps) (not BC)
 benefited/benefiting
+
 # C
 c. (circa)
 CE (small caps) (not AD)
 co-exist
 cooperative
 crowdfund
+
 # D
 De Stijl movement
+
 # E
 ExtraWide
+
 # F
 Fontstand
+
 # G
 grotesk (l.c.) unless name of font 
+
 # H
 halfway
+
 # I
 i.e., (with comma after)
 Indigenous 
 internet
+
 # J
 judgement
+
 # L
 learned, not learnt. Also burned, smelled, leaped, leaned
 letterform
@@ -145,6 +153,7 @@ license (but licensing)
 Linotype
 loopless (unless name of a font, e.g. Loopless Zed)
 lowercase 
+
 # M
 mid-1990s 
 multimillion
@@ -153,34 +162,43 @@ Modernist
 monolinear
 Monotype (uppercase)
 multiscript
+
 # N
 nameplate
 not-for-profit 
 North American
 northeast
+
 # O
 okay
 OpenType
 P
 %, not per cent
 point/12 pt 
+
 # Q
 Quran
+
 # R
+
 # S
 sans serif (no hyphen)
 slab serif (no hyphen)
 semi-serif Simplified Malayalam (not Reformed)
 Simplified Chinese
+
 # T
 Traditional Malayalam, Traditional Chinese
 TrueType
+
 # U
 Unicode
 US (not USA)
+
 # W
 First/Second World War, the Vietnam War
 while (not whilst)
+
 # X
 x-height
 
