@@ -64,6 +64,7 @@ How to style numbers:
 Full stop with initials: Thomas H. Ince, J.G. Ballard
 No full stop needed after Dr, Mr, Mrs, Mt, St
 Names of people from foreign countries, follow *Guardian* style guide:
+
 **‘Van Gogh, Vincent**
 Note that as with most Dutch names it is Van Gogh when just the surname is used (a Van Gogh masterpiece) but van Gogh with the forename (a masterpiece by Vincent van Gogh)
 Same for Dolores del Rio and Del Rio’ (but see word list: De Stijl movement)
