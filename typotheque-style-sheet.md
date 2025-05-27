@@ -1,7 +1,6 @@
-TYPOTHEQUE
-Style Sheet (following (mostly) Hart’s Rules (Oxford))
+TYPOTHEQUE Style Sheet (following (mostly) Hart’s Rules (Oxford))
 
-Updated: 27 May 2025
+*Updated: 27 May 2025*
 
 # Spelling and punctuation
 - UK spelling
@@ -16,7 +15,7 @@ Updated: 27 May 2025
 - **No serial/Oxford** comma in lists
 - **Ellipses**: to show omission in quoted text (square brackets […]) or pause in speaking… With the latter: no space before, space after (unless at end of sentence). 
 - Captions and footnotes: A full stop at the end
-- Footnote markers outside punctuation: e.g. the specific “there” of film watching.
+- **Footnote markers** outside punctuation: e.g. the specific “there” of film watching.
 - See Word List for specific spellings
 - Compound modifiers: hyphenate:
 - - life-changing moments
