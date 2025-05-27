@@ -97,9 +97,7 @@ Can use italics on first use. If used several times, no need to italicise each t
 # Lists
 N/A so far
 
-
-# TYPOTHEQUE
-## Word List
+# Word List
 
 # A
 - Aboriginal
