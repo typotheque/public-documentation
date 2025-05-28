@@ -5,7 +5,7 @@ TYPOTHEQUE Style Sheet (following (mostly) Hart’s Rules (Oxford))
 # Spelling and punctuation
 - UK spelling
 - Dictionary: New Oxford Dictionary for Writers and Editors 
-- ise verb forms: recognise, realise
+- *ise* verb forms: recognise, realise
 - Compound adjectives containing an ‘-ly’ adverb do not need a hyphen: his highly polished black shoes, ethically sourced, globally famous
 - UK punctuation: commas and periods outside quotation marks: an end to the ‘world-wide carnage’,
 - **Quotes**: single quotes throughout, but double inside single as needed. ‘a “pure” geometric reproduction, not a typographic one’ 
@@ -147,7 +147,7 @@ N/A so far
 - letterform
 - letter shape 
 - letterset
-- license (but licensing)
+- licence (but licensing)
 - *lingua franca*
 - Linotype
 - loopless (unless name of a font, e.g. Loopless Zed)
