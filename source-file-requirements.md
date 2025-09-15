@@ -59,16 +59,16 @@ Also, remove non-relevant alignment zones (inherited from Latin), and keep only 
 
 ## Glyphs and kerning
 
-**External glyphs** are any glyphs that are canonically maintained in a separate file. In production, external glyphs in your file are replaced with the version from the canonical file. In principle, only keep your own glyphs and remove any external glyphs. Some external glyphs do have to exist in your file, but they must be [disabled for exporting](https://handbook.glyphsapp.com/glyph/#glyph/exports):
+**External glyphs** are any glyphs that are canonically maintained in a separate file. In production, external glyphs in your file are replaced with the version from the canonical file. In principle, only keep your own glyphs and remove any external glyphs. Some external glyphs do have to exist in your file, and all external glyphs must be [disabled for exporting](https://handbook.glyphsapp.com/glyph/#glyph/exports):
 
-- External glyphs that interact with your glyphs due to component referencing or kerning need to remain in your file. Mark them brown.
+- External glyphs that interact with your glyphs due to **component** referencing or **kerning** need to remain in your file.
 - For the external glyphs you need to export for testing, use the “Export Glyphs” custom parameter of variable font settings and instances.
 
 > For example, Latin letters and common punctuation marks copied from the Latin file to a Devanagari file are external glyphs in the Devanagari file. They must all be disabled for exporting.
 
-**Overrides of external glyphs** due to an optimized design or anchoring aren’t external glyphs anymore. Append your script’s hyphen suffix to their names as a dot suffix, because they are typographical variants of the external glyphs for your script.
+**Overrides** of external glyphs due to their **design adjustment** or **anchoring** aren’t external glyphs anymore. Append your script’s hyphen suffix to their names as a **dot suffix**, because they are typographical variants of the external glyphs for your script.
 
-> For example, in a Devanagari file, it’s common to have a “space” glyph optimized for Devanagari and a “dottedcirle” glyph that holds the base anchors for Devanagari combining marks. Because Devanagari glyphs have a “-deva” suffix, these overrides of external glyphs should be named “space.deva” and “dottedcirle.deva”. While for Arabic, because the hyphen suffix is “-ar”, the overrides should be named with a “.ar” suffix.
+> For example, in a Devanagari file, it’s common to have a “space” glyph optimized for Devanagari and a “dottedcirle” glyph that holds the base anchors for Devanagari combining marks. Because Devanagari glyphs have a “-deva” suffix, these overrides of external glyphs should be named “space.deva” and “dottedcirle.deva”. For Arabic, because the hyphen suffix is “-ar”, the overrides should be named with a “.ar” suffix.
 
 After removing unnecessary glyphs, go to the “Kerning” window → “…” menu → click “Clean up”. This should get rid of all the unused kerning pairs from all masters.
 
