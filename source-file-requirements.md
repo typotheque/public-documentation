@@ -51,11 +51,13 @@ Add the following font-level custom paramters and (un)check them accordingly:
 - [Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings): uncheck
 - [Don't use Production Names](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Don't-use-Production-Names): check
 
-Then go through every tab of the “Font Info” window, and remove any info that’s not relevant to your design, and correct any info that’s wrong.
+Then go through every tab of the “Font Info” window, remove any info that’s not relevant to your design, and correct any info that’s wrong. In particular, for the “Masters” tab:
 
-In particular, for masters, only keep the stem widths of your glyphs. Typically for each master we only need one value for vertical stems and one value for horizontal stems.
-
-Also, remove non-relevant alignment zones (inherited from Latin), and keep only the alignment zones specific to the given scripts. Make sure it is correctly labeled, e.g. `Body Height`, `Thai`.
+- Metrics: Set metrics and alignment zones for your script, and clearly identify them.
+  - For example, one metrics may have metrics type “Body Height” and script being “Thai”.
+  - The alignment zones for Latin don’t have to be removed. If you do remove them, be careful as some of them affect how the displayed side bearings (not the side bearings stored in the file) are calculated when there’s an italic angle.
+- Stems: Keep only one horizontal and one vertical for your script. Name each value after the glyph it’s based on.
+  - For example, both values for Thai are typically based on the glyph boBaimai-thai (บ) and therefore named “boBaimai-thai”.
 
 ## Glyphs and kerning
 
