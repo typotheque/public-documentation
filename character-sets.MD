@@ -7,9 +7,7 @@ Since 2026, Typotheque standartised the character set for future font releases, 
 - Level 2, Typotheque Latin Text (for standard text fonts, such as [Rapida](https://www.typotheque.com/fonts/rapida), [Amalia](https://www.typotheque.com/fonts/amalia), etc)
 - Level 3, Typotheque Latin Text + indigenous NA language support (a small selection of fonts, such as [Lava](https://www.typotheque.com/fonts/lava) or [November](https://www.typotheque.com/fonts/november))
 
-- Level 0 is present in levels 1,2,3
-- Level 1 is present in levels 2,3
-- Level 2 is present in levels 3
+Level 0 is present in levels 1, 2, 3; level 1 is present in levels 2, 3, level 2 is present in levels 3.
 
 Each set includes a variant with Small Caps. Small caps are required for levels 2 and 3.
 
