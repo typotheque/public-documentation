@@ -5,7 +5,7 @@ Since 2026, Typotheque standartised the character set for future font releases, 
 - Level 0, Bare minimum (for very graphic intense fonts such as [History](https://www.typotheque.com/fonts/history), [Wind](https://www.typotheque.com/fonts/wind), etc)
 - Level 1, Typotheque Latin Display (for standard display fonts, such as [Tremolo](https://www.typotheque.com/fonts/tremolo), [Brenner Display](https://www.typotheque.com/fonts/brenner-display), etc)
 - Level 2, Typotheque Latin Text (for standard text fonts, such as [Rapida](https://www.typotheque.com/fonts/rapida), [Amalia](https://www.typotheque.com/fonts/amalia), etc)
-- Level 3, Typotheque Latin Text + indigenous NA language support (a small selection of fonts, such as [Lava](https://www.typotheque.com/fonts/lava) or [November]](https://www.typotheque.com/fonts/november))
+- Level 3, Typotheque Latin Text + indigenous NA language support (a small selection of fonts, such as [Lava](https://www.typotheque.com/fonts/lava) or [November](https://www.typotheque.com/fonts/november))
 
 - Level 0 is present in levels 1,2,3
 - Level 1 is present in levels 2,3
