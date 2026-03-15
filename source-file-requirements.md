@@ -47,7 +47,6 @@ Save as a new file with the file format “Glyphs File Package”.
 
 Add the following font-level custom paramters and (un)check them accordingly:
 
-- [Write lastChange](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-lastChange): uncheck
 - [Write DisplayStrings](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Write-DisplayStrings): uncheck
 - [Don't use Production Names](https://handbook.glyphsapp.com/custom-parameter-descriptions/#custom-parameter/Don't-use-Production-Names): check
 
