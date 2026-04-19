@@ -16,5 +16,19 @@ Instead of aligning it with the top of the letter, it is important to think of o
 
 <img width="1531" height="132" alt="image" src="https://github.com/user-attachments/assets/8682bb43-44c3-44ed-9cb0-5cb42ae66e38" />
 
+## Collision prevention
+In Slab serif fonts it is not easy to prevent collision with following letters with ascenders. Slovak corpus shows only one such letter `k`, and usually it is important to kern lcaron-k to avoid the collision. 
 
+<img width="1349" height="170" alt="image" src="https://github.com/user-attachments/assets/271fb964-a519-4af8-a853-7ebffc037364" />
+
+This may create a rather large white space between lcaron and k.
+
+<img width="1362" height="173" alt="image" src="https://github.com/user-attachments/assets/05c5ae68-d744-4fc6-a5ce-0de0aa5e78b2" />
+
+Alternative possibility would be to create a contextual version of `k.calt` which is used when following `lcaron`. Use this approach with caution, as it may not work in all styles. [November Slab](https://www.typotheque.com/fonts/november-slab) is using this approach, and a few other fonts.
+
+<img width="1350" height="178" alt="image" src="https://github.com/user-attachments/assets/1ab98c6f-684e-467a-9363-32a432b88cc8" />
+
+You will need to define `calt` feature:
+`sub lcaron k' by k.calt;`
 
