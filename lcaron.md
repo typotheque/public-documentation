@@ -1,7 +1,7 @@
 # Peter's preferred way to draw `Lcaron`, `lcaron`
 
 ## Shape
-At Typotheque, we name the caron required for Lcaron, `caron.slovak`. Instead of using the shape of curly quote, I prefer to use a simple shape. Think of it as a right side of the regular caron.
+The caron required for Lcaron should be named `caroncomb.alt`. Instead of using the shape of curly quote, I prefer to use a simpler shape that can't be confused with quote marks. Think of it as a right side of the regular caron.
 
 <img width="1199" height="227" alt="image" src="https://github.com/user-attachments/assets/c3084fa8-75d6-4524-8415-881affff0503" />
 
