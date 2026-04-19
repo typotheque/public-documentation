@@ -32,3 +32,9 @@ Alternative possibility would be to create a contextual version of `k.calt` whic
 You will need to define `calt` feature:
 `sub lcaron k' by k.calt;`
 
+## tcaron
+tcaron requires putting the caron.slovak higher compared to lcaron.
+
+<img width="637" height="313" alt="image" src="https://github.com/user-attachments/assets/8556a4fe-d308-4688-85c7-4f3a867fc771" />
+
+
