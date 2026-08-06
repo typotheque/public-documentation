@@ -60,14 +60,16 @@ Then go through every tab of the “Font Info” window, remove any info that’
 
 ## Glyphs and kerning
 
-**External glyphs** are any glyphs that are canonically maintained in a separate file. In production, external glyphs in your file are replaced with the version from the canonical file. In principle, only keep your own glyphs and remove any external glyphs. Some external glyphs do have to exist in your file, and all external glyphs must be [disabled for exporting](https://handbook.glyphsapp.com/glyph/#glyph/exports):
+**External glyphs** are any glyphs that are canonically maintained in a separate file. In production, external glyphs in your file are replaced with the version from the canonical file. In principle, only keep your own glyphs and remove any external glyphs.
 
-- External glyphs that interact with your glyphs due to **component** referencing or **kerning** need to remain in your file.
-- For the external glyphs you need to export for testing, use the “Export Glyphs” custom parameter of variable font settings and instances.
+> For example, Latin letters and common punctuation marks copied from their canonical Latin file to a Devanagari file are external glyphs in the Devanagari file.
 
-> For example, Latin letters and common punctuation marks copied from the Latin file to a Devanagari file are external glyphs in the Devanagari file. They must all be disabled for exporting.
+Some external glyphs do have to exist in your file, but try to [disable](https://handbook.glyphsapp.com/glyph/#glyph/exports) these external glyphs:
 
-**Overrides** of external glyphs due to their **design adjustment** or **anchoring** aren’t external glyphs anymore. Append your script’s hyphen suffix to their names as a **dot suffix**, because they are typographical variants of the external glyphs for your script.
+- External glyphs that interact with your glyphs due to **component** referencing or **kerning** need to remain in your file. It’s rather fragile to replace these glyphs in production, therefore try to assign a special color mark to them so their unusual existence is highlighted.
+- For the external glyphs that are disabled but needed for testing, use the “Export Glyphs” custom parameter of variable font settings and instances.
+
+**Overrides** of external glyphs due to **design adjustment** or **anchoring** aren’t external glyphs anymore. Append your script’s hyphen suffix to their names as a **dot suffix**, because they are typographical variants of the external glyphs for your script.
 
 > For example, in a Devanagari file, it’s common to have a “space” glyph optimized for Devanagari and a “dottedcirle” glyph that holds the base anchors for Devanagari combining marks. Because Devanagari glyphs have a “-deva” suffix, these overrides of external glyphs should be named “space.deva” and “dottedcirle.deva”. For Arabic, because the hyphen suffix is “-ar”, the overrides should be named with a “.ar” suffix.
 
