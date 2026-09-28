@@ -14,3 +14,7 @@ Each set includes a variant with Small Caps. Small caps are required for levels 
 [Download the ZIP file](https://github.com/user-attachments/files/24915894/charsets.zip) with character sets in plain text.
 
 Consider the these recommendations as minimal standard set. Your design may require additional glyphs for ligatures, stylistic sets and other alternates which are not mandated by these recommendations.
+
+---
+original reference:
+https://github.com/typotheque/charactersets/blob/main/README.md
